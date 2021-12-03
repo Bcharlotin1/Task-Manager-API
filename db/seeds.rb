@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create([
-    {username: 'Sally', password: 'Sally'}
+    {username: 'Sally', password: 'Password'}
 ])
 
 Project.create([
