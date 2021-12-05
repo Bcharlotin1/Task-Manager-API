@@ -15,8 +15,20 @@ Project.create([
 ])
 
 Task.create([
-    {title: 'Keyword Ranking Research', description: 'Competitior Research the ranking story ', completion_rate: 25, project_id: 1},
-    {title: 'Google SERPS Analysis', description: 'You should pay attention to keywords that all your competitors are ranking for, but you are not.', completion_rate: 25, project_id: 1},
-    {title: 'BrightEdge ', description: 'What are the differences in strengths and weaknesses between you and each one of your competitors', completion_rate: 25, project_id: 1},
-    {title: 'Domian Strength', description: 'How authoritative is your site compared to your competitors?', completion_rate: 25, project_id: 1}
+    {title: 'Keyword Ranking Research', completion_rate: 25, project_id: 1},
+    {title: 'Google SERPS Analysis', completion_rate: 25, project_id: 1},
+    {title: 'BrightEdge ', completion_rate: 25, project_id: 1},
+    {title: 'Domian Strength', completion_rate: 25, project_id: 1}
 ])
+
+
+Project.create([
+    {title: 'Word Press Migration', description: 'Help boost site by migrating to WordPress where you can directly navigate the SEO features
+
+    ', completion_rate: 0}
+])
+
+Task.create([
+    {title: 'Yoast Plug In', completion_rate: 100, project_id: 2}]
+)
+    

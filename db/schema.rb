@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 2021_12_02_230056) do
 
   create_table "tasks", force: :cascade do |t|
     t.string "title"
-    t.string "description"
     t.integer "completion_rate"
     t.bigint "project_id", null: false
     t.datetime "created_at", precision: 6, null: false

@@ -1,5 +1,6 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :update, :destroy]
+  
 
   # GET /projects
   def index
@@ -16,7 +17,7 @@ class ProjectsController < ApplicationController
   # POST /projects
   def create
     @project = Project.create!(project_params)
-    @project.completion_rate = 0
+
       render json: @project, status: :created, location: @project
     
   end
