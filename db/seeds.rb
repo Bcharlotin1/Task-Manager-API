@@ -7,11 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create([
-    {username: 'Sally', password: 'Password'}
+    {username: 'Sally', email: "sally@gmail.com", password: 'Password'}
 ])
 
 Project.create([
-    {title: 'Marketing', description: 'Competitior Analysis', completion_rate: 0}
+    {title: 'Marketing', description: 'Competitior Analysis', completion_rate: 0, user_id: 1}
 ])
 
 Task.create([
@@ -25,7 +25,7 @@ Task.create([
 Project.create([
     {title: 'Word Press Migration', description: 'Help boost site by migrating to WordPress where you can directly navigate the SEO features
 
-    ', completion_rate: 0}
+    ', completion_rate: 0, user_id: 1}
 ])
 
 Task.create([
