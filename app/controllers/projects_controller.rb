@@ -1,6 +1,6 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :update, :destroy]
-  before_action :authenticate_user!
+  before_action :authenticate_user!, except:[:destroy]
 
 
   # GET /projects
