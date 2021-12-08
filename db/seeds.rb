@@ -6,13 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-User.create([
-    {username: 'Sally', email: "sally@gmail.com", password: 'Password'}
-])
+User.create(username: 'Sally', email: "sally@gmail.com", password: 'Password' )
 
-Project.create([
-    {title: 'Marketing', description: 'Competitior Analysis', completion_rate: 0, user_id: 1}
-])
+Project.create(title: 'Marketing', description: 'Competitior Analysis', completion_rate: 0, user_id: 1)
 
 Task.create([
     {title: 'Keyword Ranking Research', completion_rate: 25, project_id: 1},
@@ -23,9 +19,7 @@ Task.create([
 
 
 Project.create([
-    {title: 'Word Press Migration', description: 'Help boost site by migrating to WordPress where you can directly navigate the SEO features
-
-    ', completion_rate: 0, user_id: 1}
+    {title: 'Word Press Migration', description: 'Help boost site by migrating to WordPress where you can directly navigate the SEO features', completion_rate: 0, user_id: 1}
 ])
 
 Task.create([
